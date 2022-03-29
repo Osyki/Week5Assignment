@@ -6,9 +6,9 @@ public class AsteriskLogger implements Logger{
 
     @Override
     public void Error(String string) {
-        String asterisks = "****************";
+        String asterisks = "******************";
         System.out.println(asterisks);
-        Log(string);
+        System.out.println("***ERROR: " + string + "***");
         System.out.println(asterisks);
     }
 }
